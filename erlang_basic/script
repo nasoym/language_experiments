@@ -1,0 +1,6 @@
+# compile
+erlc hello.erl
+
+# execute
+erl -noshell -s hello start -s init stop
+
